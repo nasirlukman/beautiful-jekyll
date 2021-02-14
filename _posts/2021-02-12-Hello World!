@@ -1,0 +1,9 @@
+---
+layout: post
+title: Hello World!
+subtitle: I'm probably 10 years late to the game but finally i've set up a new blog!
+---
+ #I'm planning to use this little corner of the internet to put some of my side projects that I find interesting or might be useful for someone out there.
+ ##I'm still learning tho so please be nice
+ ###But I'll get better soon, so stay tune!
+ ####;)
