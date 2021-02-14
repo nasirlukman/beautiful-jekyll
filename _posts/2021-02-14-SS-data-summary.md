@@ -913,7 +913,7 @@ plt.show()
 ```
 
 
-![png](SS_data_summary_files/SS_data_summary_16_0.png)
+![png](/img/SS_data_summary_files/SS_data_summary_16_0.png)
 
 
 The first section of the code [6] above will define the figure and axis canvas for our plot. Since we are dealing with 35 variables we will devide our subplots into 7 rows and 5 columns. 
@@ -970,7 +970,7 @@ plt.show()
 ```
 
 
-![png](SS_data_summary_files/SS_data_summary_22_0.png)
+![png](/img/SS_data_summary_files/SS_data_summary_22_0.png)
 
 
 ## Map plots
@@ -1001,7 +1001,7 @@ plt.show()
 ```
 
 
-![png](SS_data_summary_files/SS_data_summary_25_0.png)
+![png](/img/SS_data_summary_files/SS_data_summary_25_0.png)
 
 
 And that's it. Your soil sampling data summary in just about a minute. You can download the full code in my [GitHub page](https://github.com/nasirlukman/project-dump/tree/main) and reuse it for your next project. Hope it can save you the trouble and you can be more focused on your real geologist work. Have fun exploring!
