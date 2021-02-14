@@ -943,12 +943,12 @@ The second section of the code [6] define the loop behavior that will plot each 
 
 ## Correlation Matrix
 
-Our next plot will be a correlation matrix. This is a very usefull and neat plot that will teel us the correlation coefficient of one variable with another variable within the dataset. Correlation matrix value ranges from -1 to 1, where:
+Our next figure will be a correlation matrix. This is a very usefull and neat figure that will teel us the correlation coefficient of one variable with another variable within the dataset. Correlation matrix value ranges from -1 to 1, where:
 - -1 = perfect negative correlation 
 - 0 = no correlation
 - 1 = perfect positive corelation.
 
-`Pandas` come in handy with its `corr()` function to calculate a correlation matrix of our datasets. Combine it with `matplotlib` function such as `matshow()` to draw the matrix into a figure, `cmap()` to denote it with colormap and `colorbar()` to draw the legend and we can get this informative figure.
+`Pandas` come in handy with its `corr()` function to calculate a correlation matrix of our dataset. Combine it with `matplotlib` functions such as: `matshow()` to draw the matrix into a figure; `cmap()` to denote it with colormap; and `colorbar()` to draw the legend; and we can get this informative figure.
 
 
 ```python
@@ -975,7 +975,7 @@ plt.show()
 
 ## Map plots
 
-With the same concept as the histograms plot, we can make a quick and dirty map plots of our points to get a glimpse of the spatial correlation of each elements.
+With the same concept as the histograms plot, we can make a quick and dirty map plots of our points to get a glimpse of the spatial correlation of each elements. For this purpose we use `scatter()` function with our UTM coordinates as its x and y value and denote the concetration value of each element to a color map using `cmap()`. We do this using `for` loop so it can loop to each *element* in our `grade` data.
 
 
 ```python
