@@ -2,7 +2,6 @@
 layout: page
 title: About me
 ---
-![png](/img/profile_picture.png)
 <div style="text-align:center"><img src="/img/profile_picture.png" /></div>
 
 My name is Muhamad Nasir Lukman, I am passionate in earth science and intereseted in so much new things that I can explore as a geoscientist using pyhon and open source GIS. 
