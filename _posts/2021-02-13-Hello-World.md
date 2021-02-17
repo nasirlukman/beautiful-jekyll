@@ -7,6 +7,6 @@ I'm planning to use this little corner of the internet to put some of my side pr
 
 I'm still learning for now so please be nice.
  
-<font size = '10'> But I'll get better soon, stay tune! </font>
+But I'll get better soon, stay tune!
  
 ###### ;)
