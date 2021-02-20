@@ -589,7 +589,7 @@ Since we are dealing with a lot of 0's, we will add a very small value to all th
 data.iloc[:,2:] = np.log(data.iloc[:,2:]+0.0001)
 ```
 
-Now if we call `data.head()` we will see that that the concentration of each elements already transformed into its logaritmic value. We can also use natural logaritmic transormation by changing the `np.log` into `np.ln`. 
+`np.log` is a natural logarithm with base *e* if we want logarithm transformation with base *10* we can use `np.log10`. Now if we call `data.head()` we will see that that the concentration of each elements already transformed into its logaritmic value.
 
 >*Note: code above will return an error if there are still zero value in the datasets. There are various ways to deals with `0` and `NaN` value in our dataset and it was up to you which method you will use for your case. You can also ignore this line if you don't want to do any logaritmic transformation for your dataset*
 
